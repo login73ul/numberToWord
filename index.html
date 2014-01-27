@@ -1,0 +1,30 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="ru">
+<head>
+	<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+</head>
+<script src="translate.js"></script>
+<script src="dictonaries/russian_numbers.js"></script>
+<script src="convert.js"></script>
+<script src="core.js"></script>
+
+<body>
+  <table>
+    <tr>
+      <td>Введите число: </td>
+      <td><input id='number' type="text" name="number" value="1234"><td>
+    </tr>
+    <tr>
+      <td>Число прописью в восьмеричной системе: </td>
+      <td><input id='to_words_8' type="text" name="to_words_8" size='100' value=''><td>
+    </tr>
+    <tr>
+      <td>Число прописью в десятичной системе: </td>
+      <td><input id='to_words' type="text" name="to_words" size='100' value=''><td>
+    </tr>
+    <tr>
+      <td><button type="button" onclick='Core();'>Перевести</button><td>
+    </tr>
+  </table>
+</body>
+</html>
